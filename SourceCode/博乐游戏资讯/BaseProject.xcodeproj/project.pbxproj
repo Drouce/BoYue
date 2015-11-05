@@ -92,6 +92,8 @@
 		3B6023E61BEB07260076EBBE /* RankListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6023E51BEB07260076EBBE /* RankListViewController.m */; };
 		3B6023E91BEB07660076EBBE /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6023E81BEB07660076EBBE /* LeftViewController.m */; };
 		3B6023EB1BEB30150076EBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6023EA1BEB30150076EBBE /* Assets.xcassets */; };
+		3BF8D5131BEB442E00D8C31D /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D5121BEB442E00D8C31D /* Factory.m */; };
+		3BF8D5161BEB472100D8C31D /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D5151BEB472100D8C31D /* TuWanViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -243,6 +245,10 @@
 		3B6023E71BEB07660076EBBE /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		3B6023E81BEB07660076EBBE /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		3B6023EA1BEB30150076EBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BF8D5111BEB442E00D8C31D /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		3BF8D5121BEB442E00D8C31D /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		3BF8D5141BEB472100D8C31D /* TuWanViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewModel.h; sourceTree = "<group>"; };
+		3BF8D5151BEB472100D8C31D /* TuWanViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanViewModel.m; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -526,6 +532,8 @@
 			isa = PBXGroup;
 			children = (
 				3804CE481BD758F10046C8C8 /* Category */,
+				3BF8D5111BEB442E00D8C31D /* Factory.h */,
+				3BF8D5121BEB442E00D8C31D /* Factory.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -682,6 +690,8 @@
 		3B6023D81BEB05EE0076EBBE /* 兔玩游戏 */ = {
 			isa = PBXGroup;
 			children = (
+				3BF8D5141BEB472100D8C31D /* TuWanViewModel.h */,
+				3BF8D5151BEB472100D8C31D /* TuWanViewModel.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -887,6 +897,7 @@
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				3B6023D21BEB03680076EBBE /* XiMaNetManager.m in Sources */,
 				3B6023BF1BEB03590076EBBE /* HeroWeekDataModel.m in Sources */,
+				3BF8D5161BEB472100D8C31D /* TuWanViewModel.m in Sources */,
 				3B6023D11BEB03680076EBBE /* TuWanNetManager.m in Sources */,
 				3B6023C31BEB03590076EBBE /* ToolMenuModel.m in Sources */,
 				3B6023E31BEB06F30076EBBE /* MyInfoViewController.m in Sources */,
@@ -907,6 +918,7 @@
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
+				3BF8D5131BEB442E00D8C31D /* Factory.m in Sources */,
 				3B6023DD1BEB06680076EBBE /* DuoWanBarController.m in Sources */,
 				3B6023C71BEB03590076EBBE /* AlbumModel.m in Sources */,
 				3B6023E01BEB06C90076EBBE /* TuWanViewController.m in Sources */,

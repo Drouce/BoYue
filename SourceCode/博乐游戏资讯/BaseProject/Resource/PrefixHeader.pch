@@ -28,6 +28,11 @@
 #import <Foundation/Foundation.h>
 #import "AppDelegate.h"
 
+/** 自定义工厂类，存放各种自定义方法 */
+#import "Factory.h"
+
+
+
 //用于存放全局宏定义 或者 静态字符串
 #import "Constants.h"
 
