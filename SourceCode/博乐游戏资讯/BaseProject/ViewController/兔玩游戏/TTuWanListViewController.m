@@ -172,9 +172,9 @@
         
     }];
     
-    
+    //加载更多数据
     self.tableView.footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
-        [self.TuWanVm refreshDataCompletionHandle:^(NSError *error) {
+        [self.TuWanVm getMoreDataCompletionHandle:^(NSError *error) {
             self.tableView.tableHeaderView = [self headerView];
             [self.tableView.footer endRefreshing];
             [self.tableView reloadData];

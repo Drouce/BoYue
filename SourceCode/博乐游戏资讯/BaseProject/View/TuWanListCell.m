@@ -30,9 +30,10 @@
 - (UILabel *)longTitleLb {
     if (!_longTitleLb) {
         _longTitleLb = [[UILabel alloc]init];
-        _longTitleLb.font = [UIFont systemFontOfSize:16];
+        _longTitleLb.font = [UIFont systemFontOfSize:15];
         _longTitleLb.textColor = kRGBColor(180, 180, 180);
         _longTitleLb.numberOfLines = 0;
+        
     }
     return _longTitleLb;
 }
@@ -73,8 +74,8 @@
         [self.longTitleLb mas_makeConstraints:^(MASConstraintMaker *make) {
             make.leftMargin.mas_equalTo(_titleLb.mas_leftMargin);
             make.rightMargin.mas_equalTo(_titleLb.mas_rightMargin);
-            make.top.mas_equalTo(_titleLb.mas_bottom).mas_equalTo(8.3);
-            make.bottomMargin.mas_equalTo(_iconIV.mas_bottomMargin);
+            make.top.mas_equalTo(_titleLb.mas_bottom).mas_equalTo(9);
+            
         }];
         
         //点击数，下与图片对齐，右边与title对齐
