@@ -92,6 +92,9 @@
 		3B6023E61BEB07260076EBBE /* RankListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6023E51BEB07260076EBBE /* RankListViewController.m */; };
 		3B6023E91BEB07660076EBBE /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6023E81BEB07660076EBBE /* LeftViewController.m */; };
 		3B6023EB1BEB30150076EBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6023EA1BEB30150076EBBE /* Assets.xcassets */; };
+		3BE6816A1BEC367C00C20913 /* TTuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE681691BEC367C00C20913 /* TTuWanListViewController.m */; };
+		3BE6816D1BEC370500C20913 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6816C1BEC370500C20913 /* TuWanListCell.m */; };
+		3BE681701BEC416000C20913 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6816F1BEC416000C20913 /* TuWanImageCell.m */; };
 		3BF8D5131BEB442E00D8C31D /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D5121BEB442E00D8C31D /* Factory.m */; };
 		3BF8D5161BEB472100D8C31D /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D5151BEB472100D8C31D /* TuWanViewModel.m */; };
 /* End PBXBuildFile section */
@@ -245,6 +248,12 @@
 		3B6023E71BEB07660076EBBE /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		3B6023E81BEB07660076EBBE /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		3B6023EA1BEB30150076EBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BE681681BEC367C00C20913 /* TTuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTuWanListViewController.h; sourceTree = "<group>"; };
+		3BE681691BEC367C00C20913 /* TTuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTuWanListViewController.m; sourceTree = "<group>"; };
+		3BE6816B1BEC370500C20913 /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
+		3BE6816C1BEC370500C20913 /* TuWanListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListCell.m; sourceTree = "<group>"; };
+		3BE6816E1BEC416000C20913 /* TuWanImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanImageCell.h; sourceTree = "<group>"; };
+		3BE6816F1BEC416000C20913 /* TuWanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageCell.m; sourceTree = "<group>"; };
 		3BF8D5111BEB442E00D8C31D /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
 		3BF8D5121BEB442E00D8C31D /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		3BF8D5141BEB472100D8C31D /* TuWanViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewModel.h; sourceTree = "<group>"; };
@@ -552,6 +561,10 @@
 		3886C0B51BD74A4A0014E661 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3BE6816B1BEC370500C20913 /* TuWanListCell.h */,
+				3BE6816C1BEC370500C20913 /* TuWanListCell.m */,
+				3BE6816E1BEC416000C20913 /* TuWanImageCell.h */,
+				3BE6816F1BEC416000C20913 /* TuWanImageCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -658,6 +671,8 @@
 			children = (
 				3B6023DE1BEB06C90076EBBE /* TuWanViewController.h */,
 				3B6023DF1BEB06C90076EBBE /* TuWanViewController.m */,
+				3BE681681BEC367C00C20913 /* TTuWanListViewController.h */,
+				3BE681691BEC367C00C20913 /* TTuWanListViewController.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -904,12 +919,15 @@
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				3B6023BD1BEB03590076EBBE /* HeroSkinModel.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
+				3BE6816D1BEC370500C20913 /* TuWanListCell.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
+				3BE6816A1BEC367C00C20913 /* TTuWanListViewController.m in Sources */,
 				3B6023B61BEB03590076EBBE /* BestGroupModel.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
 				3B6023C01BEB03590076EBBE /* ItemDetailModel.m in Sources */,
 				3B6023D01BEB03680076EBBE /* DuoWanNetManager.m in Sources */,
+				3BE681701BEC416000C20913 /* TuWanImageCell.m in Sources */,
 				3B6023E61BEB07260076EBBE /* RankListViewController.m in Sources */,
 				3B6023BC1BEB03590076EBBE /* HeroGiftModel.m in Sources */,
 				3B6023C21BEB03590076EBBE /* SumAbilityModel.m in Sources */,
