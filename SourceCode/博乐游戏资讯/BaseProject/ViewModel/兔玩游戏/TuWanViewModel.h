@@ -52,4 +52,14 @@
 
 /** 通过行数返回此行中对应的图片链接数组 */
 - (NSArray *)iconURLSForRowInList:(NSInteger)row;
+
+/** 当前数据是视频  video*/
+- (BOOL) isVideoInListForRow:(NSInteger)row;
+- (BOOL) isVideoInIndexPicForRow:(NSInteger)row;
+/** 当前数据是图片 pic */
+- (BOOL) isPicInListForRow:(NSInteger)row;
+- (BOOL) isPicInIndexPicForRow:(NSInteger)row;
+/** 当前数据类型是HTML all */
+- (BOOL) isHtmlInListForRow:(NSInteger)row;
+- (BOOL) isHtmlInIndexPicForRow:(NSInteger)row;
 @end

@@ -116,4 +116,24 @@
 }
 
 
+//判断数据类型
+-(BOOL)isVideoInIndexPicForRow:(NSInteger)row {
+    return  [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"video"];
+}
+-(BOOL)isVideoInListForRow:(NSInteger)row {
+    return  [[self modelForArr:self.dataArr row:row].type isEqualToString:@"video"];
+}
+
+-(BOOL)isPicInIndexPicForRow:(NSInteger)row {
+    return  [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"pic"];
+}
+-(BOOL)isPicInListForRow:(NSInteger)row {
+    return  [[self modelForArr:self.dataArr row:row].type isEqualToString:@"pic"];
+}
+-(BOOL)isHtmlInIndexPicForRow:(NSInteger)row {
+   return  [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"all"];
+}
+-(BOOL)isHtmlInListForRow:(NSInteger)row {
+    return  [[self modelForArr:self.dataArr row:row].type isEqualToString:@"all"];
+}
 @end

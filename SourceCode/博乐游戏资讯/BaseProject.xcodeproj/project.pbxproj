@@ -96,6 +96,7 @@
 		3BE6816D1BEC370500C20913 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6816C1BEC370500C20913 /* TuWanListCell.m */; };
 		3BE681701BEC416000C20913 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6816F1BEC416000C20913 /* TuWanImageCell.m */; };
 		3BE681751BEC7CF500C20913 /* DRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE681741BEC7CF500C20913 /* DRImageView.m */; };
+		3BE681781BEC95BC00C20913 /* TuWanHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE681771BEC95BC00C20913 /* TuWanHtmlViewController.m */; };
 		3BF8D5131BEB442E00D8C31D /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D5121BEB442E00D8C31D /* Factory.m */; };
 		3BF8D5161BEB472100D8C31D /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8D5151BEB472100D8C31D /* TuWanViewModel.m */; };
 /* End PBXBuildFile section */
@@ -257,6 +258,8 @@
 		3BE6816F1BEC416000C20913 /* TuWanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageCell.m; sourceTree = "<group>"; };
 		3BE681731BEC7CF500C20913 /* DRImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRImageView.h; sourceTree = "<group>"; };
 		3BE681741BEC7CF500C20913 /* DRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRImageView.m; sourceTree = "<group>"; };
+		3BE681761BEC95BC00C20913 /* TuWanHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanHtmlViewController.h; sourceTree = "<group>"; };
+		3BE681771BEC95BC00C20913 /* TuWanHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanHtmlViewController.m; sourceTree = "<group>"; };
 		3BF8D5111BEB442E00D8C31D /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
 		3BF8D5121BEB442E00D8C31D /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		3BF8D5141BEB472100D8C31D /* TuWanViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewModel.h; sourceTree = "<group>"; };
@@ -678,6 +681,8 @@
 				3B6023DF1BEB06C90076EBBE /* TuWanViewController.m */,
 				3BE681681BEC367C00C20913 /* TTuWanListViewController.h */,
 				3BE681691BEC367C00C20913 /* TTuWanListViewController.m */,
+				3BE681761BEC95BC00C20913 /* TuWanHtmlViewController.h */,
+				3BE681771BEC95BC00C20913 /* TuWanHtmlViewController.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -942,6 +947,7 @@
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				3BF8D5131BEB442E00D8C31D /* Factory.m in Sources */,
+				3BE681781BEC95BC00C20913 /* TuWanHtmlViewController.m in Sources */,
 				3B6023DD1BEB06680076EBBE /* DuoWanBarController.m in Sources */,
 				3B6023C71BEB03590076EBBE /* AlbumModel.m in Sources */,
 				3B6023E01BEB06C90076EBBE /* TuWanViewController.m in Sources */,
