@@ -11,5 +11,5 @@
 @interface TTuWanListViewController : UITableViewController
 
 /** 接受外部传参 */
-@property (nonatomic, strong) NSNumber *infoType;
+@property (nonatomic, strong) NSNumber *TuWanListType;
 @end

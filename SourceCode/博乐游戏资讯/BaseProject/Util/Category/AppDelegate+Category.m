@@ -40,7 +40,8 @@
     //启动友盟统计功能
     [MobClick startWithAppkey:@"5632e65ae0f55ab90b001cbd"];
     
-    
+    //友盟统计默认情况下会关闭Xcode默认的caresh
+    [MobClick setLogEnabled:YES];
 }
 
 

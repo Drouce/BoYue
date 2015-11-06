@@ -11,26 +11,26 @@
 @implementation TuWanImageCell
 
 //图片懒加载
-- (UIImageView *)iconIV0 {
+- (DRImageView *)iconIV0 {
     if (!_iconIV0) {
-        _iconIV0 = [[UIImageView alloc]init];
-        _iconIV0.contentMode = UIViewContentModeScaleAspectFit;
+        _iconIV0 = [[DRImageView alloc]init];
+        //_iconIV0.contentMode = UIViewContentModeScaleAspectFit;
     }
     return _iconIV0;
 }
 
-- (UIImageView *)iconIV1 {
+- (DRImageView *)iconIV1 {
     if (!_iconIV1) {
-        _iconIV1 = [[UIImageView alloc]init];
-        _iconIV1.contentMode = UIViewContentModeScaleAspectFit;
+        _iconIV1 = [[DRImageView alloc]init];
+       // _iconIV1.contentMode = UIViewContentModeScaleAspectFit;
     }
     return _iconIV1;
 }
 
-- (UIImageView *)iconIV2 {
+- (DRImageView *)iconIV2 {
     if (!_iconIV2) {
-        _iconIV2 = [[UIImageView alloc]init];
-        _iconIV2.contentMode = UIViewContentModeScaleAspectFit;
+        _iconIV2 = [[DRImageView alloc]init];
+       // _iconIV2.contentMode = UIViewContentModeScaleAspectFit;
     }
     return _iconIV2;
 }
@@ -49,7 +49,8 @@
     if (!_clicksNumLb) {
         _clicksNumLb = [[UILabel alloc]init];
         _clicksNumLb.font = [UIFont systemFontOfSize:13];
-        _clicksNumLb.textColor = kRGBColor(233, 233, 233);
+        _clicksNumLb.textColor = kRGBColor(180, 180, 180);
+        _clicksNumLb.textAlignment = NSTextAlignmentRight;
         
     }
     return _clicksNumLb;
@@ -68,7 +69,7 @@
         //图片0 宽高等，间距5，边缘10，高度88
         [self.iconIV0 mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(10);
-            make.height.mas_equalTo(88);
+            make.height.mas_equalTo(85);
             make.top.mas_equalTo(_titleLb.mas_bottom).mas_equalTo(5);
         }];
         
@@ -100,7 +101,8 @@
         [self.clicksNumLb mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.mas_equalTo(10);
             make.right.mas_equalTo(-10);
-            make.width.mas_greaterThanOrEqualTo(40).mas_lessThanOrEqualTo(70);
+            make.width.mas_lessThanOrEqualTo(70);
+            make.width.mas_greaterThanOrEqualTo(40);
         }];
     }
     return self;

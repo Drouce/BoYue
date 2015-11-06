@@ -7,18 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DRImageView.h"
 @interface TuWanImageCell : UITableViewCell
 
 
 /** 图片1 */
-@property (nonatomic, strong) UIImageView *iconIV0;
+@property (nonatomic, strong) DRImageView *iconIV0;
 /** 题目标签 */
 @property (nonatomic, strong) UILabel *titleLb;
 /** 图片2 */
-@property (nonatomic, strong) UIImageView *iconIV1;
+@property (nonatomic, strong) DRImageView *iconIV1;
 /** 点击数标签 */
 @property (nonatomic, strong) UILabel *clicksNumLb;
 /** 图片3 */
-@property (nonatomic, strong) UIImageView *iconIV2;
+@property (nonatomic, strong) DRImageView *iconIV2;
 @end

@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DRImageView.h"
 
 @interface TuWanListCell : UITableViewCell
 /** 左侧图片 */
-@property (nonatomic, strong) UIImageView *iconIV;
+@property (nonatomic, strong) DRImageView *iconIV;
 /** 题目标签 */
 @property (nonatomic, strong) UILabel *titleLb;
 /** 长题目标签 */

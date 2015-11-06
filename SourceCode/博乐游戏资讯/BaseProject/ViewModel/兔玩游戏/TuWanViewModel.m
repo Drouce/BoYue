@@ -104,5 +104,16 @@
 -(NSURL *)detailURLForRowInList:(NSInteger)row {
     return [NSURL URLWithString:[self modelForArr:self.dataArr row:row].html5];
 }
-                     
+- (NSArray *)iconURLSForRowInList:(NSInteger)row {
+    
+    NSArray *arr = [self modelForArr:self.dataArr row:row].showitem;
+    NSMutableArray *mutableArr = [NSMutableArray new];
+    for (int i = 0; i < arr.count; i ++) {
+        TuWanDataIndexpicShowitemModel *model = arr[i];
+        [mutableArr addObject:[NSURL URLWithString:model.pic]];
+    }
+    return [mutableArr copy];
+}
+
+
 @end

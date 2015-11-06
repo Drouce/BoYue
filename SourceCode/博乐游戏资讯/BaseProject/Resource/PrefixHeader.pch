@@ -92,6 +92,8 @@ static const int ddLogLevel = DDLogLevelError;
 
 #import <MWPhotoBrowser.h>      //图片浏览器
 
+#import <WMPageController.h>    
+
 #endif /* PrefixHeader_pch */
 
 

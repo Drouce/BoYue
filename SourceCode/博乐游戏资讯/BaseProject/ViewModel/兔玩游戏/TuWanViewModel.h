@@ -41,7 +41,7 @@
 /** 滚动展示栏的图片 */
 - (NSURL *)iconURLForRowIndexPic:(NSInteger)row;
 /** 滚动展示栏的文字 */
-- (NSURL *)titleForRowIndexPic:(NSInteger)row;
+- (NSString *)titleForRowIndexPic:(NSInteger)row;
 /** 滚动展示栏的图片数量 */
 @property (nonatomic) NSInteger indexPicNumber;
 /** 获取列表中某行数据对应的HTML5链接 */
@@ -49,4 +49,7 @@
 /** 获取展示栏中某行数据对应的HTML5链接 */
 - (NSURL *)detailURLForRowIndexPic:(NSInteger)row;
 
+
+/** 通过行数返回此行中对应的图片链接数组 */
+- (NSArray *)iconURLSForRowInList:(NSInteger)row;
 @end

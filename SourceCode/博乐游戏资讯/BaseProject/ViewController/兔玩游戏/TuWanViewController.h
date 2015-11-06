@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WMPageController.h>
 
-@interface TuWanViewController : UIViewController
+@interface TuWanViewController : WMPageController
 
 + (UINavigationController *)standarTuWanNavi;
 
