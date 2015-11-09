@@ -55,15 +55,18 @@
     // Do any additional setup after loading the view.
     
     [Factory addMenuItemToVC:self];
-    self.title = @"音乐Top50";
+    self.title = @"博乐Music";
     
     self.tableView.header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         [self.ximaVM refreshDataCompletionHandle:^(NSError *error) {
             if (error) {
-                [self showErrorMsg:error];
+                [self showErrorMsg:error.localizedDescription];
+                
             } else {
                 [self.tableView reloadData];
             }
+            //重置脚步，没有更多数据
+            [_tableView.footer resetNoMoreData];
             [_tableView.header endRefreshing];
         }];
     }];
@@ -71,7 +74,14 @@
     self.tableView.footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
         [self.ximaVM getMoreDataCompletionHandle:^(NSError *error) {
             if (error) {
-                [self showErrorMsg:error];
+                [self showErrorMsg:error.localizedDescription];
+                
+                if (error.code == 999) {
+                    [self.tableView.footer endRefreshingWithNoMoreData];
+                }else {
+                    [_tableView.footer endRefreshing];
+                }
+
             }else {
                 [self.tableView reloadData];
             }

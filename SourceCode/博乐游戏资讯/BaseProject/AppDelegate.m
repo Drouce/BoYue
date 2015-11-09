@@ -24,7 +24,7 @@
 
   
     //self.window.rootViewController = self.sideMenu;
-    self.window.rootViewController = [RankListViewController defaultNavi];
+    self.window.rootViewController = self.sideMenu;
     [self configGlobalUIStyle];
     
     return YES;
