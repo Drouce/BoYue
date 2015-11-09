@@ -10,6 +10,7 @@
 #import "AppDelegate+Category.h"
 #import "LeftViewController.h"
 #import "TuWanViewController.h"
+#import "RankListViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +23,8 @@
     [self initializeWithApplication:application];
 
   
-    self.window.rootViewController = self.sideMenu;
+    //self.window.rootViewController = self.sideMenu;
+    self.window.rootViewController = [RankListViewController defaultNavi];
     [self configGlobalUIStyle];
     
     return YES;

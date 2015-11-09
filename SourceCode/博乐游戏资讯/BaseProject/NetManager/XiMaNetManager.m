@@ -23,7 +23,7 @@
 
 +(id)getAlbumWithId:(NSInteger)Id page:(NSInteger)pageId completionHandle:(void (^)(id, NSError *))completionHandle {
     
-    NSString *path = [NSString stringWithFormat:@"http://mobile.ximalaya.com/mobile/others/ca/album/track/%ld/true/%ld/20",Id,pageId];
+    NSString *path = [NSString stringWithFormat:@"http://mobile.ximalaya.com/mobile/others/ca/album/track/%@/true/%@/20",@(Id),@(pageId)];
     NSDictionary *params = @{@"device":@"iPhone"};
     return [self GET:path parameters:params completionHandler:^(id responseObj, NSError *error) {
         

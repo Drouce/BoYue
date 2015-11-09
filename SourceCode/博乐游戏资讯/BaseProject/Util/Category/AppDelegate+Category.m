@@ -9,6 +9,7 @@
 #import "AppDelegate+Category.h"
 #import <AFNetworkActivityIndicatorManager.h>
 #import "MobClick.h"
+#import <MLTransition.h>
 
 @implementation AppDelegate (Category)
 
@@ -42,6 +43,9 @@
     
     //友盟统计默认情况下会关闭Xcode默认的caresh
     [MobClick setLogEnabled:YES];
+    
+    //解决因为使用 LeftItem导致iOS7自带的右滑动失效
+    [MLTransition validatePanPackWithMLTransitionGestureRecognizerType:MLTransitionGestureRecognizerTypeScreenEdgePan];
 }
 
 

@@ -96,6 +96,8 @@
 		3B6B2CB91BF02CF2001D1D46 /* TuWanPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CB61BF02CF2001D1D46 /* TuWanPicModel.m */; };
 		3B6B2CBA1BF02CF2001D1D46 /* TuWanVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CB81BF02CF2001D1D46 /* TuWanVideoModel.m */; };
 		3B6B2CBD1BF02EA7001D1D46 /* TuWanPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CBC1BF02EA7001D1D46 /* TuWanPicViewController.m */; };
+		3B6B2CC01BF0497D001D1D46 /* XiMaCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CBF1BF0497D001D1D46 /* XiMaCategoryCell.m */; };
+		3B6B2CC31BF0725F001D1D46 /* XiMaCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CC21BF0725F001D1D46 /* XiMaCategoryViewModel.m */; };
 		3BE6816A1BEC367C00C20913 /* TTuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE681691BEC367C00C20913 /* TTuWanListViewController.m */; };
 		3BE6816D1BEC370500C20913 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6816C1BEC370500C20913 /* TuWanListCell.m */; };
 		3BE681701BEC416000C20913 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6816F1BEC416000C20913 /* TuWanImageCell.m */; };
@@ -262,6 +264,10 @@
 		3B6B2CB81BF02CF2001D1D46 /* TuWanVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanVideoModel.m; sourceTree = "<group>"; };
 		3B6B2CBB1BF02EA7001D1D46 /* TuWanPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicViewController.h; sourceTree = "<group>"; };
 		3B6B2CBC1BF02EA7001D1D46 /* TuWanPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewController.m; sourceTree = "<group>"; };
+		3B6B2CBE1BF0497D001D1D46 /* XiMaCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaCategoryCell.h; sourceTree = "<group>"; };
+		3B6B2CBF1BF0497D001D1D46 /* XiMaCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaCategoryCell.m; sourceTree = "<group>"; };
+		3B6B2CC11BF0725F001D1D46 /* XiMaCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaCategoryViewModel.h; sourceTree = "<group>"; };
+		3B6B2CC21BF0725F001D1D46 /* XiMaCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaCategoryViewModel.m; sourceTree = "<group>"; };
 		3BE681681BEC367C00C20913 /* TTuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTuWanListViewController.h; sourceTree = "<group>"; };
 		3BE681691BEC367C00C20913 /* TTuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTuWanListViewController.m; sourceTree = "<group>"; };
 		3BE6816B1BEC370500C20913 /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
@@ -585,6 +591,8 @@
 				3BE6816F1BEC416000C20913 /* TuWanImageCell.m */,
 				3BE681731BEC7CF500C20913 /* DRImageView.h */,
 				3BE681741BEC7CF500C20913 /* DRImageView.m */,
+				3B6B2CBE1BF0497D001D1D46 /* XiMaCategoryCell.h */,
+				3B6B2CBF1BF0497D001D1D46 /* XiMaCategoryCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -751,6 +759,8 @@
 		3B6023DA1BEB05EE0076EBBE /* 喜马拉雅 */ = {
 			isa = PBXGroup;
 			children = (
+				3B6B2CC11BF0725F001D1D46 /* XiMaCategoryViewModel.h */,
+				3B6B2CC21BF0725F001D1D46 /* XiMaCategoryViewModel.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -929,6 +939,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B6023B91BEB03590076EBBE /* HeroChangeModel.m in Sources */,
+				3B6B2CC31BF0725F001D1D46 /* XiMaCategoryViewModel.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				3B6023B71BEB03590076EBBE /* FreeHeroModel.m in Sources */,
 				3B6023C41BEB03590076EBBE /* ZBCategoryModel.m in Sources */,
@@ -969,6 +980,7 @@
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
+				3B6B2CC01BF0497D001D1D46 /* XiMaCategoryCell.m in Sources */,
 				3BF8D5131BEB442E00D8C31D /* Factory.m in Sources */,
 				3BE681781BEC95BC00C20913 /* TuWanHtmlViewController.m in Sources */,
 				3B6B2CB41BF029B7001D1D46 /* TuWanPicViewModel.m in Sources */,
