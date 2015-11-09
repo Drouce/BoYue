@@ -136,4 +136,14 @@
 -(BOOL)isHtmlInListForRow:(NSInteger)row {
     return  [[self modelForArr:self.dataArr row:row].type isEqualToString:@"all"];
 }
+
+
+//返回某行的aid
+- (NSString *)aidInListFowRow:(NSInteger)row {
+    return [self modelForArr:self.dataArr row:row].aid;
+}
+- (NSString *)aidIndexPicFowRow:(NSInteger)row {
+    return [self modelForArr:self.indexPicArr row:row].aid;
+
+}
 @end

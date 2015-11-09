@@ -8,10 +8,12 @@
 
 #import "TuWanNetManager.h"
 
+
 #define kTuWanPath @"http://cache.tuwan.com/app/"
 #define kAppId  @"appid":@1
 #define kAppVer @"appver":@2.1
 #define kClassMore @"classmore":@"indexpic"
+#define kTuWanDetailPath     @"http://api.tuwan.com/app/"
 
 #define kRemoveClassMore(dic)        [dic removeObjectForKey:@"classmore"];
 #define kSetDtId(string, dic)        [dic setObject:string forKey:@"dtid"];
@@ -115,4 +117,20 @@
     }];
 
 }
+
+
++ (id)getVideoDetailWithId:(NSString *)aid kCompletionHandle{
+    return [self GET:[self percentPathWithPath:kTuWanDetailPath params:@{kAppId, @"aid": aid}] parameters:nil completionHandler:^(id responseObj, NSError *error) {
+        //这里一定要用firstObj方法来取，不能用[0]。 如果数组为空  第一种不会崩溃，值为nil。  第二种会数组越界
+        completionHandle([TuWanVideoModel objectArrayWithKeyValuesArray:responseObj].firstObject, error);
+    }];
+}
+
++ (id)getPicDetailWithId:(NSString *)aid kCompletionHandle{
+    return [self GET:[self percentPathWithPath:kTuWanDetailPath params:@{kAppId, @"aid": aid}] parameters:nil completionHandler:^(id responseObj, NSError *error) {
+        //这里一定要用firstObj方法来取，不能用[0]。 如果数组为空  第一种不会崩溃，值为nil。  第二种会数组越界
+        completionHandle([TuWanPicModel objectArrayWithKeyValuesArray:responseObj].firstObject, error);
+    }];
+}
+
 @end

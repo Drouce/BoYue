@@ -62,4 +62,9 @@
 /** 当前数据类型是HTML all */
 - (BOOL) isHtmlInListForRow:(NSInteger)row;
 - (BOOL) isHtmlInIndexPicForRow:(NSInteger)row;
+
+
+/** 返回某行数据的aid */
+- (NSString *)aidInListFowRow:(NSInteger)row;
+- (NSString *)aidIndexPicFowRow:(NSInteger)row;
 @end
