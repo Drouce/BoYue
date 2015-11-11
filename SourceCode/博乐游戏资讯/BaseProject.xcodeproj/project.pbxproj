@@ -98,6 +98,16 @@
 		3B6B2CBD1BF02EA7001D1D46 /* TuWanPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CBC1BF02EA7001D1D46 /* TuWanPicViewController.m */; };
 		3B6B2CC01BF0497D001D1D46 /* XiMaCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CBF1BF0497D001D1D46 /* XiMaCategoryCell.m */; };
 		3B6B2CC31BF0725F001D1D46 /* XiMaCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CC21BF0725F001D1D46 /* XiMaCategoryViewModel.m */; };
+		3B6B2CC61BF0B14A001D1D46 /* TXiMaAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CC51BF0B14A001D1D46 /* TXiMaAlbumCell.m */; };
+		3B6B2CC91BF2CB3D001D1D46 /* XiMaAlbumViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CC81BF2CB3D001D1D46 /* XiMaAlbumViewModel.m */; };
+		3B6B2CCC1BF2CB5F001D1D46 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CCB1BF2CB5F001D1D46 /* MusicListViewController.m */; };
+		3B6B2CD11BF2CB85001D1D46 /* MusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CCE1BF2CB85001D1D46 /* MusicDetailCell.m */; };
+		3B6B2CD21BF2CB85001D1D46 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CD01BF2CB85001D1D46 /* PlayView.m */; };
+		3B6B2CE81BF2E61C001D1D46 /* BaiKeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CE11BF2E61C001D1D46 /* BaiKeViewController.m */; };
+		3B6B2CE91BF2E61C001D1D46 /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CE31BF2E61C001D1D46 /* HeroViewController.m */; };
+		3B6B2CEA1BF2E61C001D1D46 /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CE51BF2E61C001D1D46 /* SearchDetailViewController.m */; };
+		3B6B2CEB1BF2E61C001D1D46 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CE71BF2E61C001D1D46 /* SearchViewController.m */; };
+		3B6B2CEE1BF2E6C9001D1D46 /* ToolMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B2CED1BF2E6C9001D1D46 /* ToolMenuViewModel.m */; };
 		3BE6816A1BEC367C00C20913 /* TTuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE681691BEC367C00C20913 /* TTuWanListViewController.m */; };
 		3BE6816D1BEC370500C20913 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6816C1BEC370500C20913 /* TuWanListCell.m */; };
 		3BE681701BEC416000C20913 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6816F1BEC416000C20913 /* TuWanImageCell.m */; };
@@ -268,6 +278,27 @@
 		3B6B2CBF1BF0497D001D1D46 /* XiMaCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaCategoryCell.m; sourceTree = "<group>"; };
 		3B6B2CC11BF0725F001D1D46 /* XiMaCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaCategoryViewModel.h; sourceTree = "<group>"; };
 		3B6B2CC21BF0725F001D1D46 /* XiMaCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaCategoryViewModel.m; sourceTree = "<group>"; };
+		3B6B2CC41BF0B14A001D1D46 /* TXiMaAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXiMaAlbumCell.h; sourceTree = "<group>"; };
+		3B6B2CC51BF0B14A001D1D46 /* TXiMaAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXiMaAlbumCell.m; sourceTree = "<group>"; };
+		3B6B2CC71BF2CB3D001D1D46 /* XiMaAlbumViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaAlbumViewModel.h; sourceTree = "<group>"; };
+		3B6B2CC81BF2CB3D001D1D46 /* XiMaAlbumViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaAlbumViewModel.m; sourceTree = "<group>"; };
+		3B6B2CCA1BF2CB5F001D1D46 /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		3B6B2CCB1BF2CB5F001D1D46 /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
+		3B6B2CCD1BF2CB85001D1D46 /* MusicDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailCell.h; sourceTree = "<group>"; };
+		3B6B2CCE1BF2CB85001D1D46 /* MusicDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailCell.m; sourceTree = "<group>"; };
+		3B6B2CCF1BF2CB85001D1D46 /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
+		3B6B2CD01BF2CB85001D1D46 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
+		3B6B2CD31BF2CBEC001D1D46 /* XiMaLaYaModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiMaLaYaModel.h; sourceTree = "<group>"; };
+		3B6B2CE01BF2E61C001D1D46 /* BaiKeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiKeViewController.h; sourceTree = "<group>"; };
+		3B6B2CE11BF2E61C001D1D46 /* BaiKeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiKeViewController.m; sourceTree = "<group>"; };
+		3B6B2CE21BF2E61C001D1D46 /* HeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViewController.h; sourceTree = "<group>"; };
+		3B6B2CE31BF2E61C001D1D46 /* HeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroViewController.m; sourceTree = "<group>"; };
+		3B6B2CE41BF2E61C001D1D46 /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailViewController.h; sourceTree = "<group>"; };
+		3B6B2CE51BF2E61C001D1D46 /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailViewController.m; sourceTree = "<group>"; };
+		3B6B2CE61BF2E61C001D1D46 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		3B6B2CE71BF2E61C001D1D46 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		3B6B2CEC1BF2E6C9001D1D46 /* ToolMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMenuViewModel.h; sourceTree = "<group>"; };
+		3B6B2CED1BF2E6C9001D1D46 /* ToolMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolMenuViewModel.m; sourceTree = "<group>"; };
 		3BE681681BEC367C00C20913 /* TTuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTuWanListViewController.h; sourceTree = "<group>"; };
 		3BE681691BEC367C00C20913 /* TTuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTuWanListViewController.m; sourceTree = "<group>"; };
 		3BE6816B1BEC370500C20913 /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
@@ -593,6 +624,12 @@
 				3BE681741BEC7CF500C20913 /* DRImageView.m */,
 				3B6B2CBE1BF0497D001D1D46 /* XiMaCategoryCell.h */,
 				3B6B2CBF1BF0497D001D1D46 /* XiMaCategoryCell.m */,
+				3B6B2CC41BF0B14A001D1D46 /* TXiMaAlbumCell.h */,
+				3B6B2CC51BF0B14A001D1D46 /* TXiMaAlbumCell.m */,
+				3B6B2CCD1BF2CB85001D1D46 /* MusicDetailCell.h */,
+				3B6B2CCE1BF2CB85001D1D46 /* MusicDetailCell.m */,
+				3B6B2CCF1BF2CB85001D1D46 /* PlayView.h */,
+				3B6B2CD01BF2CB85001D1D46 /* PlayView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -685,6 +722,7 @@
 				3B6023B21BEB03590076EBBE /* AlbumModel.m */,
 				3B6023B31BEB03590076EBBE /* RankingListModel.h */,
 				3B6023B41BEB03590076EBBE /* RankingListModel.m */,
+				3B6B2CD31BF2CBEC001D1D46 /* XiMaLaYaModel.h */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -692,6 +730,14 @@
 		3B6023D31BEB05580076EBBE /* 多玩盒子 */ = {
 			isa = PBXGroup;
 			children = (
+				3B6B2CE01BF2E61C001D1D46 /* BaiKeViewController.h */,
+				3B6B2CE11BF2E61C001D1D46 /* BaiKeViewController.m */,
+				3B6B2CE21BF2E61C001D1D46 /* HeroViewController.h */,
+				3B6B2CE31BF2E61C001D1D46 /* HeroViewController.m */,
+				3B6B2CE41BF2E61C001D1D46 /* SearchDetailViewController.h */,
+				3B6B2CE51BF2E61C001D1D46 /* SearchDetailViewController.m */,
+				3B6B2CE61BF2E61C001D1D46 /* SearchViewController.h */,
+				3B6B2CE71BF2E61C001D1D46 /* SearchViewController.m */,
 				3B6023DB1BEB06680076EBBE /* DuoWanBarController.h */,
 				3B6023DC1BEB06680076EBBE /* DuoWanBarController.m */,
 			);
@@ -725,6 +771,8 @@
 		3B6023D61BEB05580076EBBE /* 喜马拉雅 */ = {
 			isa = PBXGroup;
 			children = (
+				3B6B2CCA1BF2CB5F001D1D46 /* MusicListViewController.h */,
+				3B6B2CCB1BF2CB5F001D1D46 /* MusicListViewController.m */,
 				3B6023E41BEB07260076EBBE /* RankListViewController.h */,
 				3B6023E51BEB07260076EBBE /* RankListViewController.m */,
 			);
@@ -734,6 +782,8 @@
 		3B6023D71BEB05EE0076EBBE /* 多玩盒子 */ = {
 			isa = PBXGroup;
 			children = (
+				3B6B2CEC1BF2E6C9001D1D46 /* ToolMenuViewModel.h */,
+				3B6B2CED1BF2E6C9001D1D46 /* ToolMenuViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -759,6 +809,8 @@
 		3B6023DA1BEB05EE0076EBBE /* 喜马拉雅 */ = {
 			isa = PBXGroup;
 			children = (
+				3B6B2CC71BF2CB3D001D1D46 /* XiMaAlbumViewModel.h */,
+				3B6B2CC81BF2CB3D001D1D46 /* XiMaAlbumViewModel.m */,
 				3B6B2CC11BF0725F001D1D46 /* XiMaCategoryViewModel.h */,
 				3B6B2CC21BF0725F001D1D46 /* XiMaCategoryViewModel.m */,
 			);
@@ -947,19 +999,26 @@
 				3B6023C11BEB03590076EBBE /* RuneModel.m in Sources */,
 				3B6023C51BEB03590076EBBE /* ZBItemModel.m in Sources */,
 				3B6023C61BEB03590076EBBE /* TuWanModel.m in Sources */,
+				3B6B2CEA1BF2E61C001D1D46 /* SearchDetailViewController.m in Sources */,
 				3B6B2CB91BF02CF2001D1D46 /* TuWanPicModel.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				3B6023BA1BEB03590076EBBE /* HeroCZModel.m in Sources */,
+				3B6B2CEB1BF2E61C001D1D46 /* SearchViewController.m in Sources */,
+				3B6B2CD11BF2CB85001D1D46 /* MusicDetailCell.m in Sources */,
 				3B6023B81BEB03590076EBBE /* GiftModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				3B6023D21BEB03680076EBBE /* XiMaNetManager.m in Sources */,
 				3B6023BF1BEB03590076EBBE /* HeroWeekDataModel.m in Sources */,
 				3BF8D5161BEB472100D8C31D /* TuWanViewModel.m in Sources */,
 				3B6023D11BEB03680076EBBE /* TuWanNetManager.m in Sources */,
+				3B6B2CE81BF2E61C001D1D46 /* BaiKeViewController.m in Sources */,
 				3B6023C31BEB03590076EBBE /* ToolMenuModel.m in Sources */,
+				3B6B2CC61BF0B14A001D1D46 /* TXiMaAlbumCell.m in Sources */,
 				3B6023E31BEB06F30076EBBE /* MyInfoViewController.m in Sources */,
+				3B6B2CE91BF2E61C001D1D46 /* HeroViewController.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				3B6023BD1BEB03590076EBBE /* HeroSkinModel.m in Sources */,
+				3B6B2CD21BF2CB85001D1D46 /* PlayView.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				3BE6816D1BEC370500C20913 /* TuWanListCell.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
@@ -976,6 +1035,7 @@
 				3B6023BC1BEB03590076EBBE /* HeroGiftModel.m in Sources */,
 				3B6023C21BEB03590076EBBE /* SumAbilityModel.m in Sources */,
 				3B6023BE1BEB03590076EBBE /* HeroVideoModel.m in Sources */,
+				3B6B2CEE1BF2E6C9001D1D46 /* ToolMenuViewModel.m in Sources */,
 				3B6023C81BEB03590076EBBE /* RankingListModel.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
@@ -984,10 +1044,12 @@
 				3BF8D5131BEB442E00D8C31D /* Factory.m in Sources */,
 				3BE681781BEC95BC00C20913 /* TuWanHtmlViewController.m in Sources */,
 				3B6B2CB41BF029B7001D1D46 /* TuWanPicViewModel.m in Sources */,
+				3B6B2CCC1BF2CB5F001D1D46 /* MusicListViewController.m in Sources */,
 				3B6023DD1BEB06680076EBBE /* DuoWanBarController.m in Sources */,
 				3B6023C71BEB03590076EBBE /* AlbumModel.m in Sources */,
 				3B6023E01BEB06C90076EBBE /* TuWanViewController.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,
+				3B6B2CC91BF2CB3D001D1D46 /* XiMaAlbumViewModel.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
 				3B6023B51BEB03590076EBBE /* AllHeroModel.m in Sources */,
 				3BE681751BEC7CF500C20913 /* DRImageView.m in Sources */,
@@ -1106,13 +1168,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 				);
 				GCC_PREFIX_HEADER = BaseProject/Resource/PrefixHeader.pch;
 				INFOPLIST_FILE = BaseProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1121,8 +1185,9 @@
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dragon.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -1132,13 +1197,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 				);
 				GCC_PREFIX_HEADER = BaseProject/Resource/PrefixHeader.pch;
 				INFOPLIST_FILE = BaseProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1147,8 +1214,9 @@
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dragon.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

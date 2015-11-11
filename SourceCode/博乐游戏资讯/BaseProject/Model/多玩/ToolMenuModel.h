@@ -14,5 +14,6 @@
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *type;
 @property (nonatomic, copy) NSString *tag;
+@property (nonatomic, strong) NSString *url;
 
 @end

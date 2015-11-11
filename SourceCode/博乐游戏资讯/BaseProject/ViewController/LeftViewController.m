@@ -10,6 +10,7 @@
 #import <NSString+Icons.h>
 #import "RankListViewController.h"
 #import "TuWanViewController.h"
+#import "DuoWanBarController.h"
 
 @interface LeftViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -71,6 +72,11 @@
             break;
         case 1:
             [self.sideMenuViewController setContentViewController:[RankListViewController defaultNavi] animated:YES];
+            [self.sideMenuViewController hideMenuViewController];
+            break;
+            
+        case 2:
+            [self.sideMenuViewController setContentViewController:[DuoWanBarController standardInstance] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
             break;
         default:

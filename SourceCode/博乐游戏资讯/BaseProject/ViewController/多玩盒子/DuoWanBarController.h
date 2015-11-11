@@ -10,4 +10,5 @@
 
 @interface DuoWanBarController : UITabBarController
 
++ (DuoWanBarController *)standardInstance;
 @end
