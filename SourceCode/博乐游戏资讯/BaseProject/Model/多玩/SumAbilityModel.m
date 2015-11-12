@@ -10,6 +10,9 @@
 
 @implementation SumAbilityModel
 
++(NSDictionary *)replacedKeyFromPropertyName {
+    return @{@"ID" : @"id"};
+}
 @end
 
 

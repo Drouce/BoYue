@@ -44,7 +44,7 @@
     return [NSURL URLWithString:[self modelForRow:row].url];
 }
 
--(ToolMenuType *)toolMenuTypeForRow:(NSInteger)row {
+-(ToolMenuType)toolMenuTypeForRow:(NSInteger)row {
     
     NSString *type = [self modelForRow:row].type;
     if ([type isEqualToString:@"native"]){

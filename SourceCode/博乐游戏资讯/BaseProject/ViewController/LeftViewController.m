@@ -40,6 +40,7 @@
             make.centerY.mas_equalTo(0);
             make.left.mas_equalTo(0);
         }];
+        _tableView.separatorStyle = UITableViewCellSelectionStyleNone;
     }
     return _tableView;
 }
@@ -62,6 +63,7 @@
     return cell;
 }
 
+kRemoveCellSeparator
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     

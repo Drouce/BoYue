@@ -60,7 +60,7 @@
         
         //为sideMenu设置背景图
         
-        _sideMenu.backgroundImage = [UIImage imageNamed:@"10980740_0800"];
+        _sideMenu.backgroundImage = [UIImage imageNamed:@"10979719_0800"];
         //可以让出现菜单时，不出现状态栏
         _sideMenu.menuPrefersStatusBarHidden = YES;
         

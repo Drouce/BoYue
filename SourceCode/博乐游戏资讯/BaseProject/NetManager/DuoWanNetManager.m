@@ -117,11 +117,13 @@
         completionHandle([ZBCategoryModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
-+ (id)getZBItemWithTag:(NSString *)tag kCompletionHandle {
++(id)getZBItemWithTag:(NSString *)tag completionHandle:(void (^)(id model, NSError *error))completionHandle {
     return [self GET:kZBItemListPath parameters:@{@"tag":tag,kV,kOSType,kVersionName} completionHandler:^(id responseObj, NSError *error) {
         completionHandle([ZBItemModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
+
 }
+
 + (id)getItemDetailWithId:(NSInteger)Id kCompletionHandle {
     return [self GET:kItemDetailPath parameters:@{@"id":@(Id),kV,kOSType} completionHandler:^(id responseObj, NSError *error) {
     completionHandle([ItemDetailModel objectWithKeyValues:responseObj],error);

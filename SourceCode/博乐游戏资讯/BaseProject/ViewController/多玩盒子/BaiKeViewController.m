@@ -10,6 +10,11 @@
 #import "ToolMenuViewModel.h"
 #import "DRImageView.h"
 #import "TuWanHtmlViewController.h"
+#import "BestGorupViewController.h"
+#import "ZBCategoryViewController.h"
+#import "SumAbilityViewController.h"
+
+
 /** 创建自定义Cell 图+ 题目BaikeCell */
 @interface BaiKeCell : UITableViewCell
 @property (nonatomic, strong) DRImageView *iconIV;
@@ -99,6 +104,8 @@
             }];
         }];
         
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        
     }
     return _tableView;
 }
@@ -128,6 +135,25 @@ kRemoveCellSeparator
         tuwanVC.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:tuwanVC animated:YES];
     }
+    
+    if ([[self.toolVm titleForRow:indexPath.row] isEqualToString:@"最佳阵容"]) {
+        BestGorupViewController *bestVC = [[BestGorupViewController alloc]init];
+        bestVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:bestVC animated:YES];
+    }
+    
+    if ([[self.toolVm titleForRow:indexPath.row] isEqualToString:@"装备"]) {
+        ZBCategoryViewController *zbVC = [ZBCategoryViewController new];
+        zbVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:zbVC animated:YES];
+    }
+    
+    if ([[self.toolVm titleForRow:indexPath.row] isEqualToString:@"召唤师技能"]) {
+        SumAbilityViewController *sumVC = [SumAbilityViewController new];
+        sumVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:sumVC animated:YES];
+    }
+    
 }
 
 

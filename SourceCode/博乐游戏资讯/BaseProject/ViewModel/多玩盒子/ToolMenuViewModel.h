@@ -23,7 +23,7 @@ typedef NS_ENUM(NSUInteger, ToolMenuType) {
 /** 某行的题目 */
 - (NSString *)titleForRow:(NSInteger)row;
 /** 某行的数据类型--枚举类型 */
-- (ToolMenuType *)toolMenuTypeForRow:(NSInteger)row;
+- (ToolMenuType)toolMenuTypeForRow:(NSInteger)row;
 /** 某行的tag */
 - (NSString *)tagForRow:(NSInteger)row;
 /** 某行的URL */

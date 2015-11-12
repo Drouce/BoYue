@@ -9,8 +9,8 @@
 #import "BaseModel.h"
 
 @interface ZBItemModel : BaseModel
-@property (nonatomic, assign) NSInteger ID;
-@property (nonatomic, copy) NSString *text;
+@property (nonatomic) NSInteger ID;
+@property (nonatomic, strong) NSString *text;
 @end
 
 
